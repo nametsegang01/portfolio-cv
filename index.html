@@ -12,226 +12,242 @@
 
   <!-- Top navigation -->
   <nav class="navbar">
-    <a href="#top" class="nav-brand">NLM</a>
+    <a href="#home" class="nav-brand">NLM</a>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#education">Education</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
       <li><a href="#projects">Projects</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact">Contact Me</a></li>
     </ul>
-    <a href="assets/Nametsegang_Monoketsi_CV.pdf" class="nav-download" download>Download CV</a>
+    <a href="#contact" class="nav-cta">Contact Me</a>
   </nav>
 
-  <div class="page" id="top">
+  <!-- Home / Hero -->
+  <section class="hero-section" id="home">
+    <div class="hero-text">
+      <p class="eyebrow">Portfolio</p>
+      <h1>Hi, I'm <span class="accent">Linda</span>,<br>ICT Graduate &amp; Software Developer</h1>
+      <p class="hero-sub">
+        ICT graduate from Sol Plaatje University, currently completing a Software Developer Learnership
+        at Dynamic DNA. I build practical software with Python, Django and JavaScript, and I'm just as
+        comfortable troubleshooting hardware and supporting a helpdesk as I am writing code.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary">Contact Me</a>
+        <a href="#projects" class="btn-secondary">View Projects</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-blob"></div>
+      <img src="images/profile.png" alt="Nametsegang Linda Monoketsi" class="hero-photo">
+    </div>
+  </section>
 
-    <!-- Sidebar -->
-    <aside class="sidebar">
-      <img src="profile.png" class="profile-photo">
-      <h1>Nametsegang Linda Monoketsi</h1>
-      <p class="title">ICT Graduate &amp; Software Developer Learner</p>
+  <!-- About Me -->
+  <section class="section section-alt" id="about">
+    <div class="section-inner">
+      <p class="eyebrow">About Me</p>
+      <h2>Get to know me</h2>
+      <p class="section-lead">
+        A quick look at who I am, what I've studied, and where I've picked up my skills.
+        Tap a card to expand it.
+      </p>
 
+      <div class="info-grid">
 
-      <div class="sidebar-block">
-        <h2>Contact</h2>
-        <dl class="contact-list">
-          <dt>Email</dt>
-          <dd><a href="mailto:nametseganglinda@gmail.com">nametseganglinda@gmail.com</a></dd>
-          <dt>Phone</dt>
-          <dd>076 839 8361</dd>
-          <dt>LinkedIn</dt>
-          <dd><a href="https://www.linkedin.com/in/nametsegang-monoketsi-a92271333" target="_blank" rel="noopener"> www.linkedin.com/in/nametsegang-monoketsi-a92271333</a></dd>
-          <dt>GitHub</dt>
-          <dd><a href="https://github.com/nametsegang01" target="_blank" rel="noopener"> github.com/nametsegang01 </a></dd>
-          <dt>Location</dt>
-          <dd>Johannesburg, Gauteng, South Africa</dd>
-        </dl>
+        <details class="info-card" open>
+          <summary>
+            <span class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="6.5" r="3.2" stroke="currentColor" stroke-width="1.5"/><path d="M3.5 17c1.2-3.6 4-5.4 6.5-5.4s5.3 1.8 6.5 5.4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+            <span class="info-title">About</span>
+            <span class="chevron" aria-hidden="true">＋</span>
+          </summary>
+          <p>
+            ICT graduate from Sol Plaatje University with a Diploma in Information Communication
+            Technology. Skilled in software and hardware troubleshooting, application development,
+            database management, and technical support. Currently completing a Software Developer
+            Learnership at Dynamic DNA, and looking for an entry-level IT Support, Helpdesk, Software
+            Development, or Junior Technical role.
+          </p>
+        </details>
+
+        <details class="info-card">
+          <summary>
+            <span class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 20 20" fill="none"><rect x="2.5" y="6" width="15" height="10" rx="1.5" stroke="currentColor" stroke-width="1.5"/><path d="M7 6V4.8A1.8 1.8 0 0 1 8.8 3h2.4A1.8 1.8 0 0 1 13 4.8V6" stroke="currentColor" stroke-width="1.5"/></svg>
+            </span>
+            <span class="info-title">Experience</span>
+            <span class="chevron" aria-hidden="true">＋</span>
+          </summary>
+          <ul class="info-list">
+            <li>
+              <strong>Software Developer Learnership</strong>
+              <span class="info-meta">Dynamic DNA &middot; 2026 – Present</span>
+              <p>Gaining hands-on software development experience as part of a structured learnership program.</p>
+            </li>
+            <li>
+              <strong>Academic Projects</strong>
+              <span class="info-meta">Sol Plaatje University</span>
+              <p>Built Django-based web applications involving user authentication and database integration, including responsive UI pages and backend functionality for academic systems.</p>
+            </li>
+          </ul>
+        </details>
+
+        <details class="info-card">
+          <summary>
+            <span class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 20 20" fill="none"><path d="M10 3 2 7l8 4 8-4-8-4Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M5 9.5V14c0 1.1 2.2 2 5 2s5-.9 5-2V9.5" stroke="currentColor" stroke-width="1.5"/></svg>
+            </span>
+            <span class="info-title">Education</span>
+            <span class="chevron" aria-hidden="true">＋</span>
+          </summary>
+          <ul class="info-list">
+            <li>
+              <strong>Software Developer Learnership (Occupational Certificate)</strong>
+              <span class="info-meta">Dynamic DNA &middot; 2026 – Present (In Progress)</span>
+            </li>
+            <li>
+              <strong>Diploma in Information Communication Technology</strong>
+              <span class="info-meta">Sol Plaatje University &middot; Completed 2025</span>
+              <p>Application Development, Web Development I &amp; II, Communication Networks, Information Systems I &amp; II, Programming I–III, Software Engineering I &amp; II, Big Data, HCI, Data Analysis &amp; Visualization, Operating Systems &amp; Server Management.</p>
+            </li>
+            <li>
+              <strong>National Senior Certificate (Matric)</strong>
+              <span class="info-meta">Letlhogile Secondary School &middot; Completed 2022</span>
+            </li>
+          </ul>
+        </details>
+
+        <details class="info-card">
+          <summary>
+            <span class="info-icon" aria-hidden="true">
+              <svg viewBox="0 0 20 20" fill="none"><path d="M4 3.5h9l3 3V16a.5.5 0 0 1-.5.5H4A.5.5 0 0 1 3.5 16V4a.5.5 0 0 1 .5-.5Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M7 9h6M7 12h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+            <span class="info-title">Skills</span>
+            <span class="chevron" aria-hidden="true">＋</span>
+          </summary>
+          <p class="info-meta" style="margin-bottom:10px;">Technical</p>
+          <ul class="tag-list">
+            <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Python</li>
+            <li>Java</li><li>Django</li><li>SQL</li><li>Git &amp; GitHub</li>
+            <li>IT &amp; Helpdesk Support</li><li>Hardware Troubleshooting</li>
+            <li>MS Office Suite</li><li>Networking Support</li>
+          </ul>
+          <p class="info-meta" style="margin:14px 0 10px;">Soft skills</p>
+          <ul class="tag-list">
+            <li>Teamwork</li><li>Communication</li><li>Problem Solving</li>
+            <li>Time Management</li><li>Analytical Thinking</li><li>Leadership</li>
+          </ul>
+        </details>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <p class="eyebrow">Projects</p>
+      <h2>Things I've built</h2>
+      <p class="section-lead">
+        A few projects from my diploma and personal practice, spanning full-stack web apps to this site itself.
+      </p>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <p class="project-kicker">Full-Stack Web App</p>
+          <h3>Advocate Now</h3>
+          <ul class="project-details">
+            <li><strong>Objective:</strong> Connect clients with the right lawyer through a smart, conflict-free booking system.</li>
+            <li><strong>Techniques used:</strong> Real-time scheduling, slot-locking, location/language/case-type matching.</li>
+            <li><strong>Tools/Libraries:</strong> Django, Python, SQL.</li>
+            <li><strong>Impact:</strong> Automated notifications and secure client data storage, cutting staff workload.</li>
+          </ul>
+          <div class="tech-tags">
+            <span>Django</span><span>Python</span><span>SQL</span>
+          </div>
+          <a href="https://github.com/nametsegang01" target="_blank" rel="noopener" class="btn-outline">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">Full-Stack Web App</p>
+          <h3>Student Dental Care</h3>
+          <ul class="project-details">
+            <li><strong>Objective:</strong> Give students an easy way to book appointments for oral and dental issues.</li>
+            <li><strong>Techniques used:</strong> Appointment scheduling logic, authenticated user sessions.</li>
+            <li><strong>Tools/Libraries:</strong> Django, Python.</li>
+            <li><strong>Impact:</strong> Responsive interface with secure, authenticated data handling.</li>
+          </ul>
+          <div class="tech-tags">
+            <span>Django</span><span>Python</span><span>Auth</span>
+          </div>
+          <a href="https://github.com/nametsegang01" target="_blank" rel="noopener" class="btn-outline">View Project</a>
+        </article>
+
+        <article class="project-card">
+          <p class="project-kicker">Website</p>
+          <h3>This Portfolio</h3>
+          <ul class="project-details">
+            <li><strong>Objective:</strong> A personal site to showcase my skills, education and projects.</li>
+            <li><strong>Techniques used:</strong> Responsive grid layout, expandable info cards, smooth-scroll navigation.</li>
+            <li><strong>Tools/Libraries:</strong> HTML5, CSS3, vanilla JavaScript.</li>
+            <li><strong>Impact:</strong> Also generates a downloadable, print-ready CV from the same content.</li>
+          </ul>
+          <div class="tech-tags">
+            <span>HTML5</span><span>CSS3</span>
+          </div>
+          <a href="https://github.com/nametsegang01" target="_blank" rel="noopener" class="btn-outline">View Project</a>
+        </article>
+
+      </div>
+      <p class="project-note">Note: project links point to my GitHub profile — swap in exact repository URLs once each project is pushed.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner contact-inner">
+      <p class="eyebrow">Contact Me</p>
+      <h2>Let's work together</h2>
+      <p class="section-lead">
+        Open to entry-level IT Support, Helpdesk, and Software Development opportunities.
+        Reach out any time — I'd love to hear from you.
+      </p>
+
+      <div class="contact-grid">
+        <a href="mailto:nametseganglinda@gmail.com" class="contact-card">
+          <span class="info-title">Email</span>
+          <span>nametseganglinda@gmail.com</span>
+        </a>
+        <a href="tel:0768398361" class="contact-card">
+          <span class="info-title">Phone</span>
+          <span>076 839 8361</span>
+        </a>
+        <a href="https://www.linkedin.com/in/nametsegang-monoketsi-a92271333" target="_blank" rel="noopener" class="contact-card">
+          <span class="info-title">LinkedIn</span>
+          <span>nametsegang-monoketsi</span>
+        </a>
+        <a href="https://github.com/nametsegang01" target="_blank" rel="noopener" class="contact-card">
+          <span class="info-title">GitHub</span>
+          <span>nametsegang01</span>
+        </a>
       </div>
 
-      <div class="sidebar-block" id="skills">
-        <h2>Technical Skills</h2>
-        <ul class="tag-list">
-          <li>HTML5</li>
-          <li>CSS3</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Java</li>
-          <li>Django</li>
-          <li>SQL</li>
-          <li>Git &amp; GitHub</li>
-          <li>IT &amp; Helpdesk Support</li>
-          <li>Hardware Troubleshooting</li>
-          <li>MS Office Suite</li>
-          <li>Networking Support</li>
-        </ul>
+      <div class="contact-actions">
+        <a href="mailto:nametseganglinda@gmail.com" class="btn-primary">Email Me</a>
+        <a href="assets/Nametsegang_Monoketsi_CV.pdf" class="btn-secondary" download>Download CV (PDF)</a>
       </div>
+    </div>
+  </section>
 
-      <div class="sidebar-block">
-        <h2>Soft Skills</h2>
-        <ul class="tag-list">
-          <li>Teamwork</li>
-          <li>Communication</li>
-          <li>Problem Solving</li>
-          <li>Time Management</li>
-          <li>Analytical Thinking</li>
-          <li>Leadership</li>
-        </ul>
-      </div>
-    </aside>
-
-    <!-- Main content -->
-    <main class="main">
-
-      <!-- Hero -->
-      <section class="hero" id="about">
-        <p class="hero-eyebrow">Portfolio</p>
-        <h2 class="hero-heading">I build practical software &amp; keep systems running.</h2>
-        <p class="hero-sub">
-          ICT graduate from Sol Plaatje University with a Diploma in Information Communication Technology.
-          Skilled in software and hardware troubleshooting, application development, database management,
-          and technical support. Experienced with academic software development projects using Python,
-          HTML, CSS, JavaScript and Django. Currently completing a Software Developer Learnership at
-          Dynamic DNA. Seeking an entry-level IT Support, Helpdesk, Software Development, or Junior
-          Technical role.
-        </p>
-        <div class="hero-actions">
-          <a href="#projects" class="btn-primary">View Projects</a>
-        </div>
-      </section>
-
-      <section class="section" id="education">
-        <h2>Education</h2>
-
-        <div class="timeline-entry">
-          <h3>Software Developer Learnership (Occupational Certificate)</h3>
-          <p class="entry-meta">Dynamic DNA &middot; 2026 – Present (In Progress)</p>
-        </div>
-
-        <div class="timeline-entry">
-          <h3>Diploma in Information Communication Technology (Application Development)</h3>
-          <p class="entry-meta">Sol Plaatje University &middot; Completed 2025</p>
-          <p>Major Modules: Applications Development, Web Development I &amp; II, Communication Networks,
-            Information Systems I &amp; II, Programming I, II &amp; III, Software Engineering I &amp; II,
-            Big Data, Human Computer Interaction, Data Analysis &amp; Visualization, Operating Systems &amp;
-            Server Management.</p>
-        </div>
-
-        <div class="timeline-entry">
-          <h3>National Senior Certificate (Matric)</h3>
-          <p class="entry-meta">Letlhogile Secondary School &middot; Completed 2022</p>
-        </div>
-      </section>
-
-      <section class="section" id="projects">
-        <h2>Projects</h2>
-
-        <div class="project-grid">
-
-          <article class="project-card">
-            <div class="project-card-head">
-              <h3>Advocate Now</h3>
-              <a href="https://advocate-now.onrender.com/" target="_blank" rel="noopener" class="project-link" aria-label="View Advocate Now on GitHub">
-                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.02 3.29 9.28 7.86 10.78.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.53-3.88-1.53-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.78 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18.92-.26 1.91-.39 2.89-.39.98 0 1.97.13 2.89.39 2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.7.42.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.21.68.8.56A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5Z"/></svg>
-                Code
-              </a>
-            </div>
-            <p class="entry-meta">Django &middot; Python &middot; PostgreSQL &middot; Group Project — Project Leader</p>
-            <ul>
-              <li>Designed a smart booking system with real-time scheduling and slot-locking to prevent conflicts</li>
-              <li>Implemented client-lawyer matching by location, language, and case type</li>
-              <li>Automated notifications to reduce staff workload</li>
-              <li>Integrated secure digital storage for sensitive client data</li>
-            </ul>
-            <ul class="tech-tags">
-              <li>Django</li><li>Python</li><li>SQL</li>
-            </ul>
-          </article>
-
-          <article class="project-card">
-            <div class="project-card-head">
-              <h3>Student Dental Care</h3>
-              <a href="https://student-dental-care.onrender.com/" target="_blank" rel="noopener" class="project-link" aria-label="View Student Dental Care on GitHub">
-                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.02 3.29 9.28 7.86 10.78.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.53-3.88-1.53-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.78 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18.92-.26 1.91-.39 2.89-.39.98 0 1.97.13 2.89.39 2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.7.42.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.21.68.8.56A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5Z"/></svg>
-                Code
-              </a>
-            </div>
-            <p class="entry-meta">Django &middot; Python &middot; Solo Project</p>
-            <ul>
-              <li>Built a student appointment booking system for oral and dental issues</li>
-              <li>Built a responsive interface and backend logic for scheduling and managing appointments</li>
-              <li>Applied Django's authentication and database features for secure data handling</li>
-            </ul>
-            <ul class="tech-tags">
-              <li>Django</li><li>Python</li><li>Auth</li>
-            </ul>
-          </article>
-
-          <article class="project-card">
-            <div class="project-card-head">
-              <h3>Portfolio Website</h3>
-              <a href="https://nametsegang01.github.io/portfolio-cv/" target="_blank" rel="noopener" class="project-link" aria-label="View Portfolio Website on GitHub">
-                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.74.5 12.02c0 5.02 3.29 9.28 7.86 10.78.58.11.79-.25.79-.56 0-.28-.01-1.02-.02-2-3.2.7-3.88-1.53-3.88-1.53-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.78 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18.92-.26 1.91-.39 2.89-.39.98 0 1.97.13 2.89.39 2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.41-5.27 5.7.42.36.78 1.07.78 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.21.68.8.56A10.53 10.53 0 0 0 23.5 12.02C23.5 5.74 18.27.5 12 .5Z"/></svg>
-                Code
-              </a>
-            </div>
-            <p class="entry-meta">HTML &amp; CSS &middot; Solo Project</p>
-            <ul>
-              <li>Designed and built this personal portfolio using semantic HTML and hand-written CSS</li>
-              <li>Implemented a responsive two-column layout that collapses gracefully on mobile</li>
-              <li>Added a downloadable, print-ready PDF version generated from the site's own styling</li>
-            </ul>
-            <ul class="tech-tags">
-              <li>HTML5</li><li>CSS3</li>
-            </ul>
-          </article>
-
-        </div>
-   </section>
-
-      <section class="section" id="experience">
-        <h2>Work Experience</h2>
-
-        <div class="timeline-entry">
-          <h3>Software Developer Learnership</h3>
-          <p class="entry-meta">Dynamic DNA &middot; In Progress, 2026</p>
-          <p>Gaining hands-on software development experience as part of a structured learnership program.</p>
-        </div>
-
-        <div class="timeline-entry">
-          <h3>Academic Projects</h3>
-          <p class="entry-meta">Sol Plaatje University</p>
-          <p>Developed academic application development projects using Python, HTML, CSS, and JavaScript.
-            Worked on Django-based web application projects involving user authentication and database
-            integration, including building responsive UI pages and backend functionality for academic
-            systems.</p>
-        </div>
-      </section>
-
-      <section class="section" id="references">
-        <h2>References</h2>
-        <p>Available upon request.</p>
-      </section>
-
-      <section class="section contact-cta" id="contact">
-        <h2>Get In Touch</h2>
-        <p>Open to entry-level IT Support, Helpdesk, and Software Development opportunities. Reach out any time.</p>
-        <div class="contact-cta-links">
-          <a href="mailto:nametseganglinda@gmail.com" class="btn-primary">Email Me</a>
-          <a href="https://www.linkedin.com/in/nametsegang-monoketsi-a92271333" target="_blank" rel="noopener" class="btn-secondary">LinkedIn</a>
-          <a href="https://github.com/nametsegang01" target="_blank" rel="noopener" class="btn-secondary">GitHub</a>
-        </div>
-      </section>
-
-      <footer class="footer">
-        <p>&copy; 2026 Nametsegang Linda Monoketsi</p>
-      </footer>
-
-    </main>
-  </div>
+  <footer class="footer">
+    <p>&copy; 2026 Nametsegang Linda Monoketsi &middot; Johannesburg, Gauteng, South Africa</p>
+  </footer>
 
   <script>
     const navToggle = document.getElementById('navToggle');
@@ -244,6 +260,17 @@
       link.addEventListener('click', () => {
         navLinks.classList.remove('open');
         navToggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Only one info-card open at a time on About Me
+    document.querySelectorAll('.info-grid details').forEach(item => {
+      item.addEventListener('toggle', () => {
+        if (item.open) {
+          document.querySelectorAll('.info-grid details').forEach(other => {
+            if (other !== item) other.open = false;
+          });
+        }
       });
     });
   </script>
